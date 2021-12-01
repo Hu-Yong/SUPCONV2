@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+</head>
+
+<body>
+    <form action="{{ url_for('login') }}" method="post">
+        <table>
+            <tbody>
+                <tr>
+                    <td>节点名称: </td>
+                    <td><input type="text" placeholder="请输入节点名称" name='tagname'></td>
+                </tr>
+                <tr>
+                    <td>值: </td>
+                    <td><input type="text" placeholder="请输入节点值" name='tagdata'></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="提交"></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+
+</html>
+<!DOCTYPE html>

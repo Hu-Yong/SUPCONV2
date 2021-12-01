@@ -1,0 +1,48 @@
+
+This file lists modules PyInstaller was not able to find. This does not
+necessarily mean this module is required for running you program. Python and
+Python 3rd-party packages include a lot of conditional or optional module. For
+example the module 'ntpath' only exists on Windows, whereas the module
+'posixpath' only exists on Posix systems.
+
+Types if import:
+* top-level: imported at the top-level - look at these first
+* conditional: imported within an if-statement
+* delayed: imported from within a function
+* optional: imported within a try-except-statement
+
+IMPORTANT: Do NOT post this list to the issue-tracker. Use it as a basis for
+           yourself tracking down the missing module. Thanks!
+
+missing module named 'win32com.gen_py' - imported by win32com (conditional, optional), c:\python27\lib\site-packages\PyInstaller\loader\rthooks\pyi_rth_win32comgenpy.py (top-level)
+missing module named _sysconfigdata - imported by distutils.sysconfig (delayed)
+missing module named grp - imported by shutil (optional), tarfile (optional)
+missing module named resource - imported by posix (top-level), C:\Users\15656\Desktop\SUPCONV2\supconsave.py (top-level)
+missing module named posix - imported by os (conditional, optional), C:\Users\15656\Desktop\SUPCONV2\supconsave.py (top-level)
+missing module named cl - imported by aifc (delayed, conditional, optional), C:\Users\15656\Desktop\SUPCONV2\supconsave.py (top-level)
+missing module named rourl2path - imported by urllib (conditional), C:\Users\15656\Desktop\SUPCONV2\supconsave.py (top-level)
+missing module named SOCKS - imported by ftplib (optional), C:\Users\15656\Desktop\SUPCONV2\supconsave.py (top-level)
+missing module named termios - imported by getpass (optional), C:\Users\15656\Desktop\SUPCONV2\supconsave.py (top-level)
+missing module named EasyDialogs - imported by getpass (optional), C:\Users\15656\Desktop\SUPCONV2\supconsave.py (top-level)
+missing module named _scproxy - imported by urllib (conditional), C:\Users\15656\Desktop\SUPCONV2\supconsave.py (top-level)
+missing module named os2 - imported by os (conditional, optional), C:\Users\15656\Desktop\SUPCONV2\supconsave.py (top-level)
+missing module named _emx_link - imported by os (conditional), C:\Users\15656\Desktop\SUPCONV2\supconsave.py (top-level)
+missing module named ce - imported by os (conditional, optional), C:\Users\15656\Desktop\SUPCONV2\supconsave.py (top-level)
+missing module named riscos - imported by os (conditional, optional), C:\Users\15656\Desktop\SUPCONV2\supconsave.py (top-level)
+missing module named riscospath - imported by os (conditional), C:\Users\15656\Desktop\SUPCONV2\supconsave.py (top-level)
+missing module named riscosenviron - imported by os (conditional, optional), C:\Users\15656\Desktop\SUPCONV2\supconsave.py (top-level)
+missing module named 'org.python' - imported by pickle (optional), C:\Users\15656\Desktop\SUPCONV2\supconsave.py (top-level)
+missing module named org - imported by copy (optional), C:\Users\15656\Desktop\SUPCONV2\supconsave.py (top-level)
+missing module named pwd - imported by posixpath (delayed, conditional), getpass (delayed), shutil (optional), tarfile (optional), C:\Users\15656\Desktop\SUPCONV2\supconsave.py (top-level)
+missing module named readline - imported by cmd (delayed, conditional, optional), pdb (delayed, optional), C:\Users\15656\Desktop\SUPCONV2\supconsave.py (top-level)
+missing module named fcntl - imported by tempfile (optional), subprocess (conditional), Pyro.protocol (optional), C:\Users\15656\Desktop\SUPCONV2\supconsave.py (top-level)
+missing module named _dummy_threading - imported by dummy_threading (top-level)
+missing module named 'M2Crypto.SSL' - imported by Pyro.protocol (optional)
+missing module named M2Crypto - imported by Pyro.protocol (delayed, conditional, optional)
+missing module named 'gnosis.xml' - imported by Pyro.util (delayed, conditional, optional)
+missing module named 'gnosis.version' - imported by Pyro.util (delayed, conditional, optional)
+missing module named gnosis - imported by Pyro.util (delayed, conditional, optional)
+missing module named System - imported by Pyro.util (conditional)
+missing module named 'java.rmi' - imported by Pyro.util (conditional, optional)
+missing module named java - imported by Pyro.util (conditional, optional)
+missing module named wmi - imported by SystemHealth (optional)
